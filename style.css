@@ -1,0 +1,138 @@
+h1{
+    font-size: 75px;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    font-family: 'Avenir', sans-serif;  
+    color: rgb(64,64,64);
+    
+}
+
+#hero-section{
+    height: 600px;
+
+    position: relative;
+    top: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar{
+    width: 100px;
+    height: 600px;
+
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#nav-text{
+    position: absolute;
+    top: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+#menu-link{
+    font-size: 15px;
+    color: rgb(127,127,127);
+
+    margin-bottom: 0px;
+}
+
+#divider{
+    width: 30%;
+    height: 2px;
+    
+    background-color:rgb(68,114,196);
+}
+
+#nav-social{
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+#icon{
+    height: 20px;
+    margin-right: 5px;
+}
+
+#hero-wrapper{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 2;
+}
+
+#heading-wrapper{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Name{
+
+    color: rgb(64,64,64);
+    text-align: right;
+    margin-right: 50px;
+}
+
+#Position{
+
+    color: white;
+    text-align: left;
+    
+}
+
+#tagline{
+    width:30%;
+
+    text-align: right;
+    font-size:25px;
+    margin-right: 400px;
+    margin-top: -20px;
+
+}
+
+#hero-siding{
+    background-image: url("img/siding.jpg");
+    background-size: cover;
+    
+    width: 50%;
+    height: 600px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    z-index: 1;
+    
+}*/
