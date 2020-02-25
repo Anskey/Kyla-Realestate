@@ -9,39 +9,139 @@
 
 <body>
 
-    <div id="hero-section">
-
-        <div id="navbar">
-            <div id="nav-text">
-                <p id="menu-link">Testimonials</p>
-                <div id="divider"></div>
-                <p id="menu-link">About Me</p>
-                <div id="divider"></div>
-                <p id="menu-link">Articles</p>
-                <div id="divider"></div>
-                <p id="menu-link">Listings</p>
-                <div id="divider"></div>
-            </div>
-
-            <div id="nav-social">
-                <img id="icon" src="img/fb.png">
-                <img id="icon" src="img/insta.png">
-                <img id="icon" src="img/linkedin.png">
-            </div>
+    <div id="navbar">
+        <div id="nav-text">
+            <a class="header-link">Home</a>
+            <a class="header-link">Testimonials</a>
+            <a class="header-link">About me</a>
+            <a class="header-link">Contact</a>
         </div>
 
+        <div id="nav-social">
+            <img class="icon" src="img/fb.png">
+            <img class="icon" src="img/insta.png">
+            <img class="icon" src="img/linkedin.png">
+        </div>    
+    </div>
+
+    <div id="hero-section">
         <div id="hero-wrapper">
             <div id="heading-wrapper">
-                <h1 id="Name">KYLA MIRANDA</h1>
-                <h1 id="Position">REAL ESTATE</h1>
+                <h1 id="hero-name">KYLA MIRANDA</h1>
+                <div class="divider-line"></div>
+                <h3 id="hero-tag">I am a Realtor® serving St. John's, Newfoundland and surrounding communities.</h3>
             </div>
-            <p id="tagline">Serving St. John's and surrounding communities in Newfoundland.</p>
+            <button type="button" class="button">Contact me</button>
         </div>
 
-        <div id="hero-siding">
+        <div id="hero-img"></div>
+    </div>
+
+    <div class="standard-margin-section">
+        <div class="testimonial-section">
+            <div class="header">
+                <h2>Testimonials</h2>
+                <div class="divider-line"></div>
+            </div>
+            <div id="testimonial-wrapper">
+                <div id="test-img"></div>
+                <div id="text-wrapper">
+                    <img class="quotes" src="img/quotes.png">
+                    <p class="testimonial-text">Kyla is, quite simply, amazing. Her professionalism, attention to detail and knowledge of the real estate market is second to none. She not only sold my property in a less than ideal market, she smoothed all the bumps in the road -most before I even knew they existed! When it was time to purchase my new home, she was there to guide and support the entire ride. Kyla is a remarkable human and a phenomenal realtor. 10 out of 10!!!</p>
+                    <p class="testimonial-name">Susan</p>
+                    <p class="testimonial-identifier">From Condo to Townhouse, St. John's and Paradise, NL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="standard-margin-section">
+        <div class="consultations-section">
+            <div class="consultation-header">
+                <h2>Free Consultaions</h2>
+                <img id="teacup" src="img/teacup.png">
+                <div class="divider-line" id="consultation-divider"></div>
+            </div>
+            <div id="consultation-wrapper">
+                <div id="market-analysis-wrapper">
+                    <h3 class="market-header">Free Market Analysis</h3>
+                    <div class="market-section">
+                        <div class="consultation-text">
+                            <p>Selling your house and wondering what price point to list at?</p>
+                        </div>
+                        <div class="action-wrapper">
+                            <div class="action-background"></div>
+                            <div class="action-text">
+                                <p class="action-request-text">Sign up for a free market analysis of your house!</p>
+                            </div>
+                            <button type="button" class="button action-button">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="market-update-wrapper">
+                    <h3 class="market-header">Free Market Update</h3>
+                    <div class="market-section">
+                        <div class="consultation-text">
+                            <p>Buying a house and wondering where to start?</p>
+                        </div>
+                        <div class="action-wrapper">
+                            <div class="action-background"></div>
+                            <div class="action-text">
+                                <p class="action-request-text">Sign up for a free customized market update to suit your criteria!</p>
+                            </div>
+                            <button type="button" class="button action-button">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="standard-margin-section">
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <div class="divider-line"></div>
+            <div class="contact-wrapper">
+                <div id="contact-details-section">
+                    <img id="contact-img" src="img/face_side.png">
+                    <h3 id="contact-name">Kyla Miranda</h3>
+                    <img class="contact-icon" id="phone-icon" src="img/icon-phone.png">
+                    <p class="contact-details"> +1 (709) 325 5152</p>
+                    <img class="contact-icon" id="email-icon" src="img/icon-email.png">
+                    <p class="contact-details">Kyla.RealEstate@gmail.com</p>
+                    <img class="contact-icon" id="home-icon" src="img/icon-home.png">
+                    <p class="contact-details">Hanlon Realty 385 East White Hills Rd. St. John's, NL A1A 5X7</p>
+                </div>
+
+                <div id="form-section">
+                    <div id="form-background"></div>
+                    <div id="form-wrapper">
+                        <form>
+                            <input type="text" name="name" placeholder="Name">
+                            <br>
+                            <input type="text" name="email" placeholder="Email">
+                            <br>
+                            <textarea id="message" placeholder="Message"></textarea>
+                            <br>
+                            <input type="submit" class="button">
+                        </form>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
+
+    <div id="footer">
+        <img id="footer-img" src="img/tree.png">
+        <div id="footer-links">
+            <h3 id="footer-header">Useful Links</h3>
+            <a class="footer-link">Hanlon Realty</a>
+            <a class="footer-link">CMHC</a>
+            <a class="footer-link">Genworth</a>
+            <a class="footer-link">City of St. John's</a>
+            <a class="footer-link">Town of CBS</a>
+        </div>
+    </div>
+
 </body>
 
 </html>
